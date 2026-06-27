@@ -11,6 +11,7 @@ public class AssignmentBlazeDemo {
 		
 		WebDriver driver = new ChromeDriver();
 		System.out.println("hello github");
+		
 		/*driver.manage().window().maximize();
 		driver.get("https://blazedemo.com/");
 		
