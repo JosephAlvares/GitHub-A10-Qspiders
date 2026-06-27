@@ -10,7 +10,8 @@ public class AssignmentBlazeDemo {
 	public static void main(String[] args) throws InterruptedException {
 		
 		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		System.out.println("hello github");
+		/*driver.manage().window().maximize();
 		driver.get("https://blazedemo.com/");
 		
 		driver.findElement(By.xpath("//input[contains(@value,'Find Flights')]")).click();
@@ -22,7 +23,7 @@ public class AssignmentBlazeDemo {
 		
 		driver.findElement(By.xpath("//td[text()='Aer Lingus']/preceding-sibling::td[2]")).click();
 		
-		//driver.close();
+		//driver.close();*/
 	}
 
 }
